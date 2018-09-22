@@ -23,8 +23,8 @@ public class SparseArrays {
         
         for(int i = 0; i < queries.length ; i++){
         /**
-         * Put all the queries in a hashMap for easy look up 
-         * I set the index as the key just for easier look up in the future
+         * Put all the queries in a hashMap for easy look up O(1)
+         * I set the index as the key to keep track of the order of the query
          */
         hashMap.put(queries[i],i);
         }
